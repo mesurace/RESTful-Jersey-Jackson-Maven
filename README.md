@@ -48,7 +48,7 @@ This is a simple example of RESTful web service which is developed using Jersey,
 		<url-pattern>/*</url-pattern>
 	    </servlet-mapping>     
 
-4. In web.xml, declares “com.sun.jersey.api.json.POJOMappingFeature” as “init-param” in  
+4. In web.xml, declares "com.sun.jersey.api.json.POJOMappingFeature" as "init-param" in  
     Jersey mapped servlet. It will make Jersey support JSON/object mapping.
      
         <init-param>
