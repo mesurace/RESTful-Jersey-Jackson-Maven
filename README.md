@@ -72,7 +72,7 @@ This is a simple example of RESTful web service which is developed using Jersey,
 		   return student;
 	     }}
 
-6. Create POJO class Student. 
+6. Create POJO class Student with attributes firstName, secondName, address and email. 
 7. Right click on project and run it as run on server. 
 8. Click on the link http://localhost:8080/RESTfulWS/getStudent. It will return JSON data: 
 
