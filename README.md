@@ -56,7 +56,7 @@ This is a simple example of RESTful web service which is developed using Jersey,
 	          <param-value>true</param-value>
          </init-param>
 
-5. Create class TestRESTfulWS as: 
+5. Create class TestRESTfulWS and package name should be com.demo: 
          
        package com.demo;
 
