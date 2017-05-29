@@ -2,6 +2,8 @@
 
 This is a simple example of RESTful web service which is developed using Jersey, Jackson and maven technologies in Eclipse.
 
+#STEPS:
+
 1. Create a simple Dynamic web project and then convert it to Maven in Eclipse.
 2. Add the following dependencies for Jersey and Jackson in your pom.xml file.
       
