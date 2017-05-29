@@ -5,7 +5,7 @@ This is a simple example of RESTful web service which is developed using Jersey,
 1. Create a simple Dynamic web project and then convert it to Maven in Eclipse.
 2. Add the following dependencies for Jersey and Jackson in your pom.xml file.
       
-    <dependency>
+                <dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-server</artifactId>
 			<version>1.19</version>
@@ -31,20 +31,20 @@ This is a simple example of RESTful web service which is developed using Jersey,
 
 3. Now add Jersey servlet to web.xml.
 
-  <servlet>
+            <servlet>
 		<servlet-name>Jerseydemo</servlet-name>
 		<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
 		<init-param>
 			<param-name>com.sun.jersey.config.property.packages</param-name>
 			<param-value>com.demo</param-value>
 		</init-param>
-			<load-on-startup>1</load-on-startup>
-	</servlet>
-  
-   <servlet-mapping>
-		<servlet-name> Jerseydemo </servlet-name>
+		<load-on-startup>1</load-on-startup>
+	    </servlet>
+	
+            <servlet-mapping>
+		<servlet-name>Jerseydemo</servlet-name>
 		<url-pattern>/*</url-pattern>
-	</servlet-mapping>     
+	    </servlet-mapping>     
 
 4. In web.xml, declares “com.sun.jersey.api.json.POJOMappingFeature” as “init-param” in  
     Jersey mapped servlet. It will make Jersey support JSON/object mapping.
