@@ -5,7 +5,7 @@ This is a simple example of RESTful web service which is developed using Jersey,
 1. Create a simple Dynamic web project and then convert it to Maven in Eclipse.
 2. Add the following dependencies for Jersey and Jackson in your pom.xml file.
       
-                <dependency>
+             <dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-server</artifactId>
 			<version>1.19</version>
